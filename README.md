@@ -28,6 +28,12 @@ The following machine learning models were implemented:
 The models were evaluated using accuracy, precision, recall, and F1-score.  
 Random Forest achieved the best overall performance.
 
+## Key Findings
+- **Random Forest** performed best overall with 97.2% cross-validation accuracy and 90% test accuracy
+- **Member activity levels** strongly influence churn, with visit frequency being the most important predictor (73% feature importance)
+- **Behavioral features** are more predictive than demographic features, suggesting engagement-focused retention strategies
+- **Class imbalance** was addressed using SMOTE, improving model performance on the minority churn class
+
 ## Project Structure
 - `data/` – dataset file
 - `notebooks/` – Jupyter Notebook with full workflow
