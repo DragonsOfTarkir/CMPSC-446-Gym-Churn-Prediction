@@ -1,4 +1,4 @@
-Model,Accuracy,F1 Score
-Logistic Regression,1.0,1.0
-Decision Tree,1.0,1.0
-Random Forest,1.0,1.0
+Model,CV Accuracy Mean,CV Accuracy Std,Test Accuracy,F1 Score
+Logistic Regression,0.943968253968254,0.01732705276062882,0.8,0.8
+Decision Tree,0.9776190476190475,0.01119469694127331,0.9,0.8916530278232405
+Random Forest,0.9717460317460318,0.031300846766732005,0.9,0.8916530278232405
