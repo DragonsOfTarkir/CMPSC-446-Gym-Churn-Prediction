@@ -35,15 +35,18 @@ Random Forest achieved the best overall performance.
 - **Class imbalance** was addressed using SMOTE, improving model performance on the minority churn class
 
 ## Project Structure
-- `data/` – dataset file
-- `notebooks/` – Jupyter Notebook with full workflow
-- `results/figures/` – generated visualizations
-- `results/tables/` – model comparison outputs
+- `gym-churn-prediction/data/` – dataset file
+- `gym-churn-prediction/results/figures/` – generated visualizations
+- `gym-churn-prediction/results/tables/` – model comparison outputs
+- `run_analysis.py` – direct Python entrypoint for training and evaluating models
 
 ## How to Run
 1. Install dependencies:
-```bash pip install -r requirements.txt```
-2. Launch Jupyter Notebook:
-```jupyter notebook```
-3. Open and Run
-```notebooks/churn_analysis.ipynb``
+```bash
+pip install -r requirements.txt
+```
+2. Run the analysis:
+```bash
+python run_analysis.py
+```
+The script loads `gym-churn-prediction/data/gym_churn.csv`, trains classification models, and writes model comparison results to `gym-churn-prediction/results/tables/model_comparison.csv`.
